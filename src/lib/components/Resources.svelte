@@ -2,16 +2,16 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mb-12 flex justify-between items-end">
       <div>
-        <div class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Find out more</div>
+        <div class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Learn more</div>
         <h2 class="text-3xl font-semibold text-gray-900 mb-4">
-          Explore new ways to grow<br>and support your business.
+          Expert advice on managing<br>credit card debt in the UK.
         </h2>
         <a href="#" class="text-sm font-medium text-primary-600 hover:text-primary-700 flex items-center gap-1 mt-4">
-          View all customer stories 
+          View all articles 
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
         </a>
       </div>
-      <div class="flex gap-2">
+      <div class="flex gap-2 hidden md:flex">
          <button aria-label="Previous" class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-gray-50">
            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
          </button>
@@ -24,10 +24,10 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Blog Card 1 -->
       <div class="group relative h-[300px] rounded-2xl overflow-hidden cursor-pointer">
-        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Blog post" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+        <img src="/generated/image-young-couple-reviewing-finances-together-1766012837428-4.webp" alt="Credit card debt guide" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
         <div class="absolute bottom-0 left-0 p-8 w-full">
-           <h3 class="text-xl font-semibold text-white mb-2">Turn marketplace searches into bookings with smarter marketing</h3>
+           <h3 class="text-xl font-semibold text-white mb-2">5 strategies to pay off credit card debt faster in 2025</h3>
            <div class="flex justify-end">
              <div class="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center text-white">
                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
@@ -38,10 +38,10 @@
 
       <!-- Blog Card 2 -->
       <div class="group relative h-[300px] rounded-2xl overflow-hidden cursor-pointer">
-        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Blog post" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+        <img src="/generated/image-person-using-smartphone-banking-app-whil-1766012834765-3.webp" alt="Open Banking explained" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
         <div class="absolute bottom-0 left-0 p-8 w-full">
-           <h3 class="text-xl font-semibold text-white mb-2">Grow your ecommerce business on autopilot with smart sequences.</h3>
+           <h3 class="text-xl font-semibold text-white mb-2">What is Open Banking and how does it keep your money safe?</h3>
            <div class="flex justify-end">
              <div class="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center text-white">
                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>

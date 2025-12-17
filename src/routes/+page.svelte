@@ -18,240 +18,285 @@
   <Stats />
   <Steps />
   
-  <!-- Feature 1: Convert signups -->
+  <!-- Feature 1: One consolidated payment -->
   <FeatureSection 
-    title="Convert signups to active users with sophisticated onboarding flows"
-    subtitle="OPTIMIZE EVERY STEP OF THE CUSTOMER JOURNEY"
-    linkText="Marketing platform"
+    title="One simple payment for all your credit cards"
+    subtitle="AUTOMATED PAYMENT CONSOLIDATION"
+    linkText="See how it works"
     bullets={[
-      "Account creation and KYC reminders",
-      "Push notifications/email reminders for account completion",
-      "Message templates for every channel",
-      "AI-optimized send times for higher activation rates"
+      "Single monthly payment covers all your cards",
+      "Automatic distribution across multiple cards",
+      "Smart payment optimization to minimize interest",
+      "Never miss a payment deadline again"
     ]}
   >
     <div slot="description">
-      <p>Guide new customers from account creation to first transaction with multi-step onboarding flows.</p>
+      <p>Stop juggling multiple payment dates and amounts. Incredible consolidates everything into one automated monthly payment that covers all your credit cards.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-      <!-- Mockup for onboarding flow -->
+      <!-- Payment consolidation visual -->
       <div class="bg-white rounded-xl shadow-lg p-6 w-[80%] max-w-sm relative">
-        <div class="flex items-center gap-2 mb-4">
-          <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">1</div>
-          <div class="text-sm font-semibold">Create account</div>
+        <div class="mb-4">
+          <div class="text-xs text-gray-500 mb-2">Monthly payment</div>
+          <div class="text-3xl font-bold text-gray-900">£450</div>
         </div>
         <div class="space-y-3">
-          <div class="h-2 bg-gray-100 rounded w-full"></div>
-          <div class="h-8 bg-blue-600 rounded w-full text-white flex items-center justify-center text-sm font-medium">Create account</div>
-          <div class="flex items-center gap-2 mt-4 p-3 bg-green-50 rounded-lg border border-green-100">
-             <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs">✓</div>
-             <div class="text-xs text-green-800">Your verification code is 123456 - do not share this code.</div>
+          <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded bg-primary-600 flex items-center justify-center text-white text-xs font-bold">V</div>
+              <div class="text-xs font-medium">Visa ****1234</div>
+            </div>
+            <div class="text-xs font-semibold">£180</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded bg-primary-600 flex items-center justify-center text-white text-xs font-bold">M</div>
+              <div class="text-xs font-medium">Mastercard ****5678</div>
+            </div>
+            <div class="text-xs font-semibold">£170</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded bg-primary-600 flex items-center justify-center text-white text-xs font-bold">A</div>
+              <div class="text-xs font-medium">Amex ****9012</div>
+            </div>
+            <div class="text-xs font-semibold">£100</div>
           </div>
         </div>
         
-        <!-- Floating elements -->
-        <div class="absolute -right-12 top-10 bg-white p-3 rounded-lg shadow-md flex items-center gap-2">
-           <div class="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center text-white text-xs">$</div>
-           <div class="text-xs font-medium">One step left!</div>
+        <!-- Floating success badge -->
+        <div class="absolute -right-8 top-10 bg-primary-600 text-white p-3 rounded-lg shadow-md flex items-center gap-2">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+           <div class="text-xs font-medium">All paid!</div>
         </div>
       </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 2: Deliver authentication -->
+  <!-- Feature 2: Secure Open Banking -->
   <FeatureSection 
-    title="Deliver authentication instantly"
-    subtitle=""
-    linkText="Data platform"
+    title="Bank-level security with Open Banking"
+    subtitle="SECURE & REGULATED"
+    linkText="Learn about security"
     reversed={true}
     bullets={[
-      "Real-time OTP codes via SMS, WhatsApp, and push",
-      "Authentication Journeys with automated fallbacks",
-      "End-to-end encryption",
-      "Compliance-ready verification templates"
+      "FCA regulated Open Banking integration",
+      "256-bit encryption for all transactions",
+      "Never store your banking credentials",
+      "Two-factor authentication on every login"
     ]}
   >
     <div slot="description">
-      <p>Ensure secure logins and transactions with global OTP delivery, fallback options, and end-to-end encryption.</p>
+      <p>Your security is our priority. We use Open Banking technology regulated by the FCA, ensuring your financial data is protected with the same security standards as your bank.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Diagram -->
+       <!-- Security flow diagram -->
        <div class="flex flex-col items-center gap-4">
          <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 w-64 flex items-center gap-3">
-            <div class="w-8 h-8 bg-purple-100 rounded flex items-center justify-center text-purple-600">⚡</div>
+            <div class="w-8 h-8 bg-primary-100 rounded flex items-center justify-center text-primary-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
             <div class="text-sm">
-               <div class="font-semibold">Trigger</div>
-               <div class="text-xs text-gray-500">Customer makes a purchase</div>
+               <div class="font-semibold">Encrypted Connection</div>
+               <div class="text-xs text-gray-500">Bank-grade 256-bit encryption</div>
             </div>
          </div>
          <div class="h-8 w-px bg-gray-300"></div>
          <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 w-64 flex items-center gap-3">
-            <div class="w-8 h-8 bg-green-100 rounded flex items-center justify-center text-green-600">💬</div>
+            <div class="w-8 h-8 bg-primary-100 rounded flex items-center justify-center text-primary-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
             <div class="text-sm">
-               <div class="font-semibold">Send SMS</div>
-               <div class="text-xs text-gray-500">Send verification code to...</div>
+               <div class="font-semibold">FCA Regulated</div>
+               <div class="text-xs text-gray-500">Fully compliant Open Banking</div>
             </div>
          </div>
          <div class="h-8 w-px bg-gray-300"></div>
-         <div class="bg-orange-50 p-2 rounded-full text-xs text-orange-600 font-medium px-4 border border-orange-100">
-            Conditioner
+         <div class="bg-primary-50 p-2 rounded-full text-xs text-primary-600 font-medium px-4 border border-primary-100">
+            Your data is safe
          </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 3: Send transaction updates -->
+  <!-- Feature 3: Smart payment optimization -->
   <FeatureSection 
-    title="Send transaction and account updates automatically"
-    subtitle=""
-    linkText="Marketing automation"
+    title="Intelligent payment optimization that saves you money"
+    subtitle="SMART ALGORITHMS"
+    linkText="Learn about optimization"
     bullets={[
-      "Real-time transaction confirmations via Push",
-      "Low balance and overdraft alerts",
-      "Multi-language and currency localization support",
-      "Spending summaries and insights"
+      "Automatically prioritize high-interest cards",
+      "Minimize total interest paid across all cards",
+      "Optimize payment timing for maximum impact",
+      "Track savings compared to manual payments"
     ]}
   >
     <div slot="description">
-      <p>Keep customers informed with instant, trusted notifications for every financial event.</p>
+      <p>Our smart algorithms analyze your credit card balances and interest rates to optimize payment distribution, helping you pay off debt faster while minimizing interest charges.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Mobile list UI -->
+       <!-- Payment optimization UI -->
        <div class="bg-white rounded-2xl shadow-lg p-4 w-64 space-y-4">
-          <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded-lg">
-             <div class="w-10 h-10 bg-gray-900 rounded-lg flex items-center justify-center text-white">$</div>
+          <div class="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
+             <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center text-white text-xs font-bold">1</div>
              <div>
-                <div class="text-xs font-bold">Transaction received</div>
-                <div class="text-[10px] text-gray-500">You received $45.00 from Paul</div>
+                <div class="text-xs font-bold">High APR Card</div>
+                <div class="text-[10px] text-gray-500">24.9% APR • Priority payment</div>
              </div>
           </div>
-          <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded-lg">
-             <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white">atm</div>
+          <div class="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
+             <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center text-white text-xs font-bold">2</div>
              <div>
-                <div class="text-xs font-bold">ATM withdrawal</div>
-                <div class="text-[10px] text-gray-500">$100 from Main Street ATM</div>
+                <div class="text-xs font-bold">Medium APR Card</div>
+                <div class="text-[10px] text-gray-500">19.9% APR • Balanced payment</div>
              </div>
           </div>
-          <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded-lg">
-             <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white">☕</div>
+          <div class="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
+             <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center text-white text-xs font-bold">3</div>
              <div>
-                <div class="text-xs font-bold">Starbucks Coffee</div>
-                <div class="text-[10px] text-gray-500">You spent $4.95</div>
+                <div class="text-xs font-bold">Low APR Card</div>
+                <div class="text-[10px] text-gray-500">12.9% APR • Minimum payment</div>
              </div>
+          </div>
+          <div class="mt-4 p-3 bg-primary-50 rounded-lg border border-primary-100">
+            <div class="text-xs font-semibold text-primary-900">Estimated savings</div>
+            <div class="text-lg font-bold text-primary-600">£145/month</div>
           </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 4: Keep customers active -->
+  <!-- Feature 4: Complete visibility -->
   <FeatureSection 
-    title="Keep customers active and loyal"
-    subtitle=""
-    linkText="Marketing automation"
+    title="Track your progress with complete visibility"
+    subtitle="REAL-TIME INSIGHTS"
+    linkText="View dashboard demo"
     reversed={true}
     bullets={[
-      "Product upgrade and feature adoption nudges",
-      "Automated Journeys by event",
-      "Segmentation by customer value",
-      "Built-in A/B testing"
+      "See all your cards and balances in one place",
+      "Track payment history and upcoming payments",
+      "Monitor debt reduction progress over time",
+      "Get alerts before payments are processed"
     ]}
   >
     <div slot="description">
-      <p>Re-engage inactive users and reward loyal ones with personalized campaigns.</p>
+      <p>Stay informed with a clear dashboard that shows all your credit cards, payment schedules, and progress toward becoming debt-free.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Email Mockup -->
+       <!-- Dashboard mockup -->
        <div class="bg-white rounded-xl shadow-lg w-[80%] overflow-hidden border border-gray-100">
-          <div class="bg-gray-50 p-3 border-b border-gray-100 flex items-center gap-2">
-             <div class="w-3 h-3 rounded-full bg-red-400"></div>
-             <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-             <div class="w-3 h-3 rounded-full bg-green-400"></div>
+          <div class="bg-gray-50 p-3 border-b border-gray-100">
+             <div class="text-xs font-semibold text-gray-900">Your Dashboard</div>
           </div>
           <div class="p-6">
-             <div class="flex items-center gap-2 mb-4">
-                <div class="w-8 h-8 bg-black rounded-full"></div>
-                <div class="text-xs font-semibold">LumePay • info@lumepay.com</div>
+             <div class="mb-4">
+                <div class="text-xs text-gray-500 mb-1">Total balance</div>
+                <div class="text-2xl font-bold text-gray-900">£8,450</div>
+                <div class="text-xs text-primary-600 font-medium">↓ £450 this month</div>
              </div>
-             <div class="text-sm font-bold mb-2">Hi <span class="bg-yellow-100 px-1 rounded text-yellow-800">{`{{FirstName}}`}</span></div>
-             <p class="text-xs text-gray-500 mb-4">
-                We saw you just made your first transfer abroad — welcome to the global stage!
-             </p>
-             <p class="text-xs text-gray-500">
-                Did you know Gold members save up to 1.5% on every currency conversion?
-             </p>
+             <div class="space-y-2 mb-4">
+                <div class="flex justify-between items-center text-xs">
+                   <span class="text-gray-500">Next payment</span>
+                   <span class="font-semibold">15th Jan</span>
+                </div>
+                <div class="flex justify-between items-center text-xs">
+                   <span class="text-gray-500">Amount</span>
+                   <span class="font-semibold">£450</span>
+                </div>
+             </div>
+             <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+                <div class="h-full bg-primary-600 rounded-full" style="width: 35%"></div>
+             </div>
+             <div class="text-[10px] text-gray-500 mt-1">35% paid off</div>
           </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 5: Understand what drives -->
+  <!-- Feature 5: Flexible and adaptable -->
   <FeatureSection 
-    title="Understand what drives transactions and engagement"
-    subtitle=""
-    linkText="Marketing automation"
+    title="Flexible payments that adapt to your life"
+    subtitle="COMPLETE CONTROL"
+    linkText="See all features"
     bullets={[
-      "Attribution dashboards",
-      "SLA reporting",
-      "Content performance reporting",
-      "Optimal send-time analysis"
+      "Adjust payment amounts anytime",
+      "Pause or skip a month if needed",
+      "Add or remove cards instantly",
+      "Change payment dates to match your income"
     ]}
   >
     <div slot="description">
-      <p>Identify your highest-impact campaigns so you can invest more in what works and cut what doesn't.</p>
+      <p>Life changes, and your payment plan should too. Incredible gives you complete flexibility to adjust your payments, add new cards, or pause when you need to—all from your phone.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center px-8">
-       <!-- Chart -->
+       <!-- Flexibility chart -->
        <div class="w-full h-64 flex items-end justify-between gap-2">
-          {#each [40, 60, 30, 80, 50, 70, 45, 65, 35, 55, 75, 45] as height}
-             <div class="w-full bg-indigo-100 rounded-t-sm relative group">
-                <div style="height: {height}%" class="absolute bottom-0 w-full bg-indigo-500 rounded-t-sm transition-all duration-500 group-hover:bg-indigo-600"></div>
-                <div style="height: {height * 0.4}%" class="absolute bottom-0 w-full bg-teal-400 rounded-t-sm opacity-80"></div>
+          {#each [60, 60, 60, 40, 60, 60, 80, 60, 60, 60, 60, 60] as height}
+             <div class="w-full bg-primary-100 rounded-t-sm relative group">
+                <div style="height: {height}%" class="absolute bottom-0 w-full bg-primary-600 rounded-t-sm transition-all duration-500 group-hover:bg-primary-700"></div>
              </div>
           {/each}
        </div>
        <!-- Legend overlay -->
        <div class="absolute top-12 right-12 bg-white p-4 rounded-lg shadow-sm border border-gray-100 text-xs">
-          <div class="flex justify-between gap-8 mb-1">
-             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-teal-400"></span> Renewed customers</span>
-             <span class="font-semibold">231</span>
+          <div class="flex justify-between gap-8 mb-2">
+             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-primary-600"></span> Monthly payment</span>
+             <span class="font-semibold">£450</span>
           </div>
-          <div class="flex justify-between gap-8 mb-1">
-             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-indigo-500"></span> Won customers</span>
-             <span class="font-semibold">431</span>
+          <div class="flex justify-between gap-8 mb-2">
+             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-primary-300"></span> Adjusted month</span>
+             <span class="font-semibold">£300</span>
           </div>
-          <div class="flex justify-between gap-8">
-             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-gray-300"></span> Churned customers</span>
-             <span class="font-semibold">41</span>
+          <div class="text-[10px] text-gray-500 mt-2">
+             Flexibility when you need it
           </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 6: Security -->
+  <!-- Feature 6: Security and compliance -->
   <FeatureSection 
     title="Built for security, compliance, and trust"
-    subtitle=""
-    linkText="Marketing automation"
+    subtitle="REGULATED & SECURE"
+    linkText="Security details"
     reversed={true}
     bullets={[
-      "ISO 27001 and SOC 2 Type II certified",
-      "End-to-end encryption for all messages",
-      "SLA-backed uptime and instant scaling for high-volume sends",
-      "Compliance with GDPR, CCPA, LGPD, POPI, and UK Data Protection Act"
+      "FCA regulated and fully compliant",
+      "Open Banking security standards",
+      "GDPR compliant data handling",
+      "Regular security audits and penetration testing"
     ]}
   >
     <div slot="description">
-      <p>Safeguard sensitive financial data and meet global regulatory requirements while strengthening customer confidence in your brand.</p>
+      <p>We take your financial security seriously. Incredible is FCA regulated, uses Open Banking technology, and maintains the highest standards of data protection and compliance.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Compliance Logos Grid -->
-       <div class="grid grid-cols-2 gap-8 opacity-60 grayscale">
-          <div class="flex items-center gap-2 font-bold text-lg"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"/></svg> GDPR</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🔒 SOC II</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🏥 HIPAA</div>
-          <div class="flex items-center gap-2 font-bold text-lg">⭕ OAuth</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🌐 ISO/IEC 27001</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🔑 OKTA</div>
+       <!-- Compliance badges -->
+       <div class="grid grid-cols-2 gap-8">
+          <div class="flex flex-col items-center gap-2 text-center">
+            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
+              <svg class="w-8 h-8 text-primary-600" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"/></svg>
+            </div>
+            <div class="font-bold text-sm">FCA Regulated</div>
+          </div>
+          <div class="flex flex-col items-center gap-2 text-center">
+            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
+              <svg class="w-8 h-8 text-primary-600" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+            </div>
+            <div class="font-bold text-sm">256-bit Encryption</div>
+          </div>
+          <div class="flex flex-col items-center gap-2 text-center">
+            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
+              <svg class="w-8 h-8 text-primary-600" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            </div>
+            <div class="font-bold text-sm">GDPR Compliant</div>
+          </div>
+          <div class="flex flex-col items-center gap-2 text-center">
+            <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
+              <svg class="w-8 h-8 text-primary-600" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <div class="font-bold text-sm">Open Banking</div>
+          </div>
        </div>
     </div>
   </FeatureSection>

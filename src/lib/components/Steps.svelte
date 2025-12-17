@@ -2,7 +2,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mb-16">
       <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
-        How Bird grows your fintech<br>business in three steps
+        How Incredible simplifies<br>your credit card payments
       </h2>
       <a href="#" class="text-sm font-medium text-gray-600 hover:text-primary-600 flex items-center gap-1">
         Learn more 
@@ -14,33 +14,33 @@
       <!-- Step 1 -->
       <div>
         <div class="w-8 h-8 bg-primary-600 rounded-md flex items-center justify-center text-white mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Unify your customer and listing data</h3>
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Connect your credit cards</h3>
         <p class="text-sm text-gray-500 leading-relaxed">
-          Connect your app, data warehouse, and marketing stack to create complex customer profiles—no ETL required.
+          Securely link all your UK credit cards using Open Banking. We never store your banking credentials—everything is encrypted and FCA regulated.
         </p>
       </div>
 
       <!-- Step 2 -->
       <div>
         <div class="w-8 h-8 bg-primary-600 rounded-md flex items-center justify-center text-white mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Launch secure, compliant journeys</h3>
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Set your payment schedule</h3>
         <p class="text-sm text-gray-500 leading-relaxed">
-          Leverage prebuilt templates for onboarding, authentication, and engagement—all with built-in regulatory compliance.
+          Choose your monthly payment date and amount. Incredible automatically calculates optimal payments across all your cards to minimize interest.
         </p>
       </div>
 
       <!-- Step 3 -->
       <div>
         <div class="w-8 h-8 bg-primary-600 rounded-md flex items-center justify-center text-white mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Optimize with AI</h3>
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Relax while we handle the rest</h3>
         <p class="text-sm text-gray-500 leading-relaxed">
-          Personalize by location, transaction history, or product usage, and deliver on the channels your customers trust.
+          We automatically pay all your cards on time, every time. Track your progress, get notifications, and never worry about late fees again.
         </p>
       </div>
     </div>
